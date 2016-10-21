@@ -1,0 +1,15 @@
+---
+Name: quaff-csv-config
+---
+Quaff\Mappers\IndexedArray:
+  content_types:
+    - 'text/csv'
+Quaff\Endpoints\CSV:
+  alias: 'filetype:csv'
+  response: Quaff\Responses\CSV
+  meta:
+    accept_type: 'text/csv'
+    delimeter: ','
+    string_wrapper: '"'
+    header: true
+

@@ -1,0 +1,6 @@
+---
+Name: quaff-csv-mimetypes
+---
+Quaff\Transports\Stream:
+  mimetype_for_extension:
+    'csv': 'text/csv'
