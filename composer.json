@@ -1,0 +1,37 @@
+{
+	"name": "crackerjackdigital/silverstripe-quaff-csv",
+	"type": "silverstripe-module",
+	"description": "CSV file support for quaff"
+	"homepage": "http://github.com/crackerjackdigital",
+	"license": "BSD-3-Clause",
+	"keywords": [
+		"silverstripe",
+		"api"
+	],
+	"authors": [
+		{
+			"name": "Stephen Wake",
+			"homepage": "http://github.com/crackerjackdigital"
+		}
+	],
+	"require": {
+		"php": ">=5.5",
+		"composer/installers": "*",
+		"silverstripe/framework": ">=3.1",
+		"crackerjackdigital/silverstripe-modular": "*",
+		"crackerjackdigital/silverstripe-quaff": "*"
+	},
+	"extra": {
+		"installer-name": "quaff-csv"
+	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/crackerjackdigital/silverstripe-modular"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/crackerjackdigital/silverstripe-quaff"
+		}
+	]
+}
