@@ -1,7 +1,7 @@
 {
 	"name": "crackerjackdigital/silverstripe-quaff-csv",
 	"type": "silverstripe-module",
-	"description": "CSV file support for quaff"
+	"description": "CSV file support for quaff",
 	"homepage": "http://github.com/crackerjackdigital",
 	"license": "BSD-3-Clause",
 	"keywords": [
